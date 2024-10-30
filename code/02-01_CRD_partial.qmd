@@ -26,18 +26,18 @@ library(multcomp) # for pairwise comparison letter display
 ```
 
 ```{r data import}
-crd_df 
+crd_df <- read_csv("../data/wheat_nk_balkh.csv")
 
 crd_df
 ```
 
 # b) EDA tables  
 ```{r summary}
-summary(crd_df)
+summary(crd_df) # Check the range of data
 ```
 
 ```{r glimpse}
-glimpse(crd_df)
+glimpse(crd_df)  # Check the types of data
 ```
 
 # c) Wrangling  
